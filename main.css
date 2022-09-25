@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  color: #fff;
+}
+
 .userDetails {
   display: flex;
   flex-direction: row;
@@ -29,14 +33,14 @@ button {
 .user {
   height: 11em;
   width: 20em;
-  background: #fff;
+  background: #2c5364;
   border: 2px solid #8cc7af;
   box-shadow: 9px 9px 10px;
   padding: 7px 0;
   border-radius: 11px;
 }
 
-#readMore {
-  background: #064adf;
+button {
+  background: #203a43;
   color: white;
 }
