@@ -21,6 +21,7 @@ let Users = [
     address: { street: "12th cross", city: "Belagavi" },
     location: [10.223, 12.36],
   },
+
   {
     class: 2,
     name: "Ms.Vrinda",
@@ -66,7 +67,6 @@ function userDetails() {
       <p class="details"><b>Location: </b>${"Lat: " + user.location[0]} ${
       "Long: " + user.location[1]
     }</p>
-      <button class="details">Read more</button>
     </div>`;
   });
 }
