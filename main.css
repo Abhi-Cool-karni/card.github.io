@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  padding: 6em 0;
+  background: #0f2027;
+}
+
+.details {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0 8px;
+  margin: 5.5px 3px 7px 6px;
+}
+
+button {
+  position: relative;
+  left: 31%;
+}
+
+.user {
+  height: 11em;
+  width: 20em;
+  background: #fff;
+  border: 2px solid #8cc7af;
+  box-shadow: 9px 9px 10px;
+  padding: 7px 0;
+  border-radius: 11px;
+}
+
+#readMore {
+  background: #064adf;
+  color: white;
+}
