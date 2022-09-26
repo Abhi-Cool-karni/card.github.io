@@ -10,8 +10,6 @@ function EvenNumbers() {
   console.log(even);
 }
 
-// EvenNumbers();
-
 let Users = [
   {
     class: 1,
