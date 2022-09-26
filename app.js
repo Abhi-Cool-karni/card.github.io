@@ -48,11 +48,6 @@ let Users = [
   },
 ];
 
-// let namePara = document.getElementByclass("name");
-// let classPara = document.getElementByclass("class");
-// let usernamePara = document.getElementByclass("username");
-// let emailPara = document.getElementByclass("email");
-
 // console.log(namePara);
 function userDetails() {
   Users.forEach((user) => {
@@ -61,7 +56,7 @@ function userDetails() {
       <span class="details">${user.name}</span>
       <p class="details"><b>Username: </b>${user.username}</p>
       <p class="details"><b>Email: </b>${user.email}</p>
-      <address class="details"><b>Address: </b>${user.address.street},${
+      <address class="details"><b>Address: </b>${user.address.street}, ${
       user.address.city
     }</address>
       <p class="details"><b>Location: </b>${"Lat: " + user.location[0]} ${
