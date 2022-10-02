@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
 * {
   padding: 0;
@@ -8,7 +8,7 @@
 
 body {
   color: #fff;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   letter-spacing: 1px;
 }
 
@@ -28,6 +28,17 @@ button {
   height: 100vh;
   padding: 6em 0;
   background: #0f2027;
+  flex-wrap: wrap;
+}
+
+.user {
+  height: 10em;
+  width: 20em;
+  background: #2c5364;
+  border: 2px solid #8cc7af;
+  box-shadow: 9px 9px 10px;
+  padding: 7px 0;
+  border-radius: 11px;
 }
 
 .details {
@@ -35,14 +46,4 @@ button {
   border: 1px solid black;
   padding: 0 8px;
   margin: 5.5px 3px 7px 6px;
-}
-
-.user {
-  height: 12em;
-  width: 20em;
-  background: #2c5364;
-  border: 2px solid #8cc7af;
-  box-shadow: 9px 9px 10px;
-  padding: 7px 0;
-  border-radius: 11px;
 }
