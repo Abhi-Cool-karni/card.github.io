@@ -46,12 +46,15 @@ let Users = [
     address: { street: "12th cross", city: "Hubli" },
     location: [10.223, 12.36],
   },
+  {
+    class: 4,
+    name: "Mr.Arvind",
+    username: "Arvind@123",
+    email: "Arvind@gmail.com",
+    address: { street: "12th cross", city: "Bangalore" },
+    location: [10.223, 12.36],
+  },
 ];
-
-// let namePara = document.getElementByclass("name");
-// let classPara = document.getElementByclass("class");
-// let usernamePara = document.getElementByclass("username");
-// let emailPara = document.getElementByclass("email");
 
 // console.log(namePara);
 function userDetails() {
