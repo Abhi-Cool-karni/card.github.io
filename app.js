@@ -10,8 +10,6 @@ function EvenNumbers() {
   console.log(even);
 }
 
-// EvenNumbers();
-
 let Users = [
   {
     class: 1,
@@ -64,7 +62,7 @@ function userDetails() {
       <span class="details">${user.name}</span>
       <p class="details"><b>Username: </b>${user.username}</p>
       <p class="details"><b>Email: </b>${user.email}</p>
-      <address class="details"><b>Address: </b>${user.address.street},${
+      <address class="details"><b>Address: </b>${user.address.street}, ${
       user.address.city
     }</address>
       <p class="details"><b>Location: </b>${"Lat: " + user.location[0]} ${
