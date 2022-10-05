@@ -55,7 +55,7 @@ maiores eaque odio, explicabo tempore consequuntur error minima`,
     class: 4,
     name: "Mrs.Vasudha",
     username: "Vasudha@123",
-    email: "Vasusha@gmail.com",
+    email: "Vasudha@gmail.com",
     designation: "Home Maker",
     address: { street: "12th cross", city: "Hubli" },
     description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
