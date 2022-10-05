@@ -88,7 +88,7 @@ function userDetails() {
 <img
   class="images userInformation"
   id="userPic"
-  src="/images and svgs/user.png"
+  src="./images and svgs/user.png"
   alt="Profile picture"
 />
 
